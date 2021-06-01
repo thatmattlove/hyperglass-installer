@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "lib": ["ES2020", "webworker"],
+    "types": ["@cloudflare/workers-types", "node"],
+    "noImplicitAny": true,
+    "strict": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "~": ["./src"],
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": ["./src/*.ts", "./src/**/*.ts"],
+  "exclude": ["node_modules/", "dist/"]
+}

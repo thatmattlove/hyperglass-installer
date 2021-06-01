@@ -1,0 +1,61 @@
+{
+  "name": "hyperglass-installer-worker",
+  "version": "1.0.0",
+  "description": "install.hyperglass.dev worker",
+  "main": "dist/worker.js",
+  "repository": "https://github.com/checktheroads/hyperglass-installer-worker",
+  "author": "checktheroads <matt@hyperglass.dev>",
+  "license": "BSD-3-Clause-Clear",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-typescript": "^7.13.0",
+    "@cloudflare/workers-types": "^2.2.2",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-inject": "^4.0.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/node": "^15.6.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "eslint": "^7.27.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "prettier": "^2.3.0",
+    "rollup": "^2.50.5",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-external-globals": "^0.6.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "ts-loader": "8.2.0",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "typescript": "^4.3.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "crypto-random-string": "^4.0.0",
+    "query-string": "^7.0.0"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --loglevel warn -c .",
+    "typecheck": "tsc --noEmit"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-typescript"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-transform-runtime",
+        {
+          "regenerator": true
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+account_id = '605a36738152d714cbf0b459282d1a9d'
+name = "hyperglass-installer"
+route = 'install.hyperglass.dev'
+target_type = "webpack"
+type = 'webpack'
+webpack_config = "webpack.config.js"
+zone_id = '41752670ccdcd9ffab6bf6199a196247'
