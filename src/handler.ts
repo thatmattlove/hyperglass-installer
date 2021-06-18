@@ -5,7 +5,7 @@ import { isGithubContent } from './types';
 /**
  * Raw installer script content.
  */
-const SCRIPT_URL = 'https://raw.githubusercontent.com/checktheroads/hyperglass/v1.0.0/install.sh';
+const SCRIPT_URL = 'https://raw.githubusercontent.com/checktheroads/hyperglass/main/install.sh';
 
 /**
  * GitHub API target for the installer script.
