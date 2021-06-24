@@ -1,10 +1,10 @@
 {
   "name": "hyperglass-installer-worker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "install.hyperglass.dev worker",
   "main": "dist/worker.js",
-  "repository": "https://github.com/checktheroads/hyperglass-installer-worker",
-  "author": "checktheroads <matt@hyperglass.dev>",
+  "repository": "https://github.com/thatmattlove/hyperglass-installer-worker",
+  "author": "Matt Love <matt@hyperglass.dev>",
   "license": "BSD-3-Clause-Clear",
   "private": true,
   "devDependencies": {

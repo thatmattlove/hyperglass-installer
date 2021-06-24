@@ -5,13 +5,13 @@ import { isGithubContent } from './types';
 /**
  * Raw installer script content.
  */
-const SCRIPT_URL = 'https://raw.githubusercontent.com/checktheroads/hyperglass/main/install.sh';
+const SCRIPT_URL = 'https://raw.githubusercontent.com/thatmattlove/hyperglass/main/install.sh';
 
 /**
  * GitHub API target for the installer script.
  */
 const GITHUB_CONTENT_URL =
-  'https://api.github.com/repos/checktheroads/hyperglass/contents/install.sh';
+  'https://api.github.com/repos/thatmattlove/hyperglass/contents/install.sh';
 
 /**
  * Create a Response object with a body in the form of a bash script.

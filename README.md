@@ -5,6 +5,6 @@
   <h3>Installer Script Worker</h3>
   <br/>  
 
-  This repository contains the [Cloudflare Worker](https://workers.cloudflare.com/) code to download the [hyperglass](https://github.com/checktheroads/hyperglass) installer bash script.
+  This repository contains the [Cloudflare Worker](https://workers.cloudflare.com/) code to download the [hyperglass](https://github.com/thatmattlove/hyperglass) installer bash script.
 
 </div>
